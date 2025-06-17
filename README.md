@@ -1,25 +1,24 @@
 # 💼 Ambady Unnikrishnan – Portfolio Website
 
-A personal portfolio website built to showcase my skills, projects, certifications, and experiences in the IT and software development fields. This project includes sections like **About Me**, **Experience**, **Projects**, **Certificates**, and **Contact**, designed with a responsive layout and interactive UI.
+A personal portfolio website built to showcase my skills, projects, certifications, and experiences in the IT and software development fields. <br>This project includes sections like **About Me**, **Experience**, **Projects**, **Certificates**, and **Contact**,<br> designed with a responsive layout and interactive UI.
 
 ---
 
 ## 🌐 Live Demo
 
-🚀 [View My Portfolio Website](https://yourusername.github.io/portfolio/)  
-_(Replace the above link with your actual GitHub Pages or hosting link)_
+🚀 [View My Portfolio Website](https://ambadyunnikrishnan.netlify.app/)
 
----
+
 
 ## 📂 Project Structure
 
 portfolio/
-├── assets/ # Resume PDF, images, icons
-├── index.html # Main portfolio webpage
-├── style.css # Global styles (desktop)
-├── mediaqueries.css # Responsive design styles
-├── script.js # JavaScript for menu toggle
-└── README.md # This file
+├── assets/ # Resume PDF, images, icons|<br>
+├── index.html # Main portfolio webpage<br>
+├── style.css # Global styles (desktop)<br>
+├── mediaqueries.css # Responsive design styles<br>
+├── script.js # JavaScript for menu toggle<br>
+└── README.md # This file<br>
 
 
 ---
@@ -46,8 +45,7 @@ portfolio/
 
 ## 🖼️ Preview
 
-![Portfolio Preview](assets/preview.png)  
-_(Replace `preview.png` with an actual screenshot of your portfolio webpage)_
+![Portfolio Preview](assets/project-3.png) 
 
 ---
 
@@ -56,11 +54,11 @@ _(Replace `preview.png` with an actual screenshot of your portfolio webpage)_
 - **👤 Name**: Ambady Unnikrishnan  
 - **📍 Location**: Kottayam, Kerala, India  
 - **📫 Email**: ambadyworkmail56@gmail.com  
-- **🌐 Website**: [ambady-unnikrishnan.dev](https://your-website.com)
+- **🌐 Website**: [ambady-unnikrishnan.dev](https://ambadyunnikrishnan.netlify.app/)
 
 ---
 
-## 📄 License
+## 📄 License Me...
 
 This project is licensed under the [MIT License](LICENSE).
 
