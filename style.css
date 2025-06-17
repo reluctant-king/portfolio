@@ -514,9 +514,9 @@ footer p {
 
 .send-msg-container{
   display: grid;
-  border: #555353 0.1rem solid;
+  border: #555353 1px solid;
   opacity: 0.9;
-  padding: 30px;
+  padding: 10px;
   border-radius: 40px;
 }
 .form-group{
@@ -525,7 +525,7 @@ footer p {
 }
 .form-group input,
 .form-group textarea {
-  width: 100%;
+  width: 60%;
   padding: 10px;
   border-radius: 15px;
   border: none;
