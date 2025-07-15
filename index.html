@@ -23,6 +23,8 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#certificates">Certificates</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#send-message">Send Message</a></li>
+        
       </ul>
     </div>
   </nav>
@@ -40,6 +42,7 @@
         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+        <li><a href="#send-message" onclick="toggleMenu()">Send Message</a></li>
       </div>
     </div>
   </nav>
@@ -427,7 +430,21 @@
             <!-- <a href="https://yourlivedemo.com/project-three" target="_blank" class="btn btn-color-2 project-btn">Live Demo</a> -->
           </div>
         </div>
-
+        <!-- Project five -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-five.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Event Management System</h2>
+          <p class="project-description">
+            Eventified is a web-based event management system that allows users to discover, register, and engage with events, while enabling organizers to create, manage, and track events. It includes user roles, ticketing, polls, Q&A, forums, and secure access control with a responsive interface using PHP, MySQL, JavaScript, and Tailwind CSS.
+          </p>
+          <div class="btn-container">
+            <a href="https://github.com/reluctant-king/event-management-system" target="_blank"
+              class="btn btn-color-2 project-btn">GitHub</a>
+            <!-- <a href="https://yourlivedemo.com/project-one" target="_blank" class="btn btn-color-2 project-btn">Live Demo</a> -->
+          </div>
+        </div>
       </div>
     </div>
 
@@ -451,7 +468,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="send-message">
     <h1 class="title">Send Message</h1>
     <div class="send-msg-container">
     <form >
@@ -468,7 +485,7 @@
         <textarea id="message" name="message" rows="4" required></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-color-1">Send Message</button>
+        <button type="submit" class="btn btn-color-1" onclick="sentMessage()">Send Message</button>
     </form>
     </div>
   </section>
@@ -481,6 +498,7 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#certificates">Certificates</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#send-message">Send Message</a></li>
 
         </ul>
       </div>
