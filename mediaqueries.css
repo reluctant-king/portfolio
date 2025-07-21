@@ -100,6 +100,7 @@
   }
   .contact-info-container {
     margin: 0;
+    padding: 6px 6px;
   }
   .contact-info-container p,
   .nav-links li a {
@@ -118,7 +119,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 75vw;
     justify-content: center;
   }
   .section__text__p2 {
@@ -129,5 +130,37 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .section__text__p1 {
+    margin-bottom: 0.5rem;
+  }
+ 
+  }
+  @media screen and (max-width: 600px) {
+  .send-msg-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-group input[type="submit"] {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 22px;
+    text-align: center;
   }
 }

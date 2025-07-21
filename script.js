@@ -14,3 +14,26 @@ function sentMessage(event){
     alert("Message sent: ");
 
 }
+const text = [ "Full Stack Developer", "Software Engineer","Web Developer", "Tech Enthusiast"];
+let count = 0;
+let index = 0;
+let currentText = '';
+let letter = '';
+let typingSpeed = 150;
+
+(function type() {
+  if (count === text.length) count = 0;
+  currentText = text[count];
+  letter = currentText.slice(0, ++index);
+
+  document.querySelector(".section__text__p2").textContent = letter;
+  if (letter.length === currentText.length) {
+    setTimeout(() => {
+      index = 0;
+      count++;
+      setTimeout(type, 800);
+    }, 1000); 
+  } else {
+    setTimeout(type, typingSpeed);
+  }
+})();
