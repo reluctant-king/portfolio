@@ -14,7 +14,7 @@ function sentMessage(event){
     alert("Message sent: ");
 
 }
-const text = [ "Full Stack Developer", "Software Engineer","Web Developer", "Tech Enthusiast"];
+const text = [ "Full Stack Developer", "Software Engineer","Web Developer", "Tech Enthusiast" , "MERN Stack Developer"];
 let count = 0;
 let index = 0;
 let currentText = '';
