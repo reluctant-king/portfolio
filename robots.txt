@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ambadyunnikrishnan.netlify.app/sitemap.xml
